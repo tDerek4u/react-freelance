@@ -17,7 +17,7 @@ const Faq = () => {
   };
 
   return (
-    <section className="flex flex-col md:flex-row justify-between px-20 py-12 ">
+    <section className="flex flex-col md:flex-row justify-between xl:px-20 lg:px-16 md:px-16 px-8 py-12 ">
       <div className="md:w-1/2">
         <h2 className="text-3xl font-semibold">Frequently Asked Questions - FAQs</h2>
         <div className="h-1 bg-black mt-4"></div>
@@ -47,7 +47,7 @@ const Faq = () => {
           ))}
         </div>
       </div>
-      <div className="md:w-1/3 mt-8 md:mt-0 flex justify-center">
+      <div className="xl:block lg:block md:block hidden mt-8 md:mt-0 w-1/3">
         <img src="/images/faq.jpeg" alt="FAQ Illustration" className="max-w-full" />
       </div>
     </section>
