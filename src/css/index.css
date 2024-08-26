@@ -109,10 +109,10 @@
   }
 
   .mission-vision-section {
-    @apply w-[90%] md:w-[85%] lg:w-[75%] rounded-lg border-2 bg-[#EDF4FE] p-4 px-2 flex flex-col items-center -translate-y-20;
+    @apply w-[90%] md:w-[85%] lg:w-[75%] rounded-lg p-4 px-2 flex flex-col items-center -translate-y-40;
   }
   .mission-vision-item {
-    @apply p-3 text-center shadow-inner bg-white space-y-3 border-2 rounded-xl;
+    @apply p-3 text-center;
   }
 
   .footer-list {
@@ -135,6 +135,7 @@
   background-image: url('/images/bg_color.jpeg');
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .member-card {

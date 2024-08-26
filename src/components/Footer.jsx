@@ -4,7 +4,7 @@ import { IoMailSharp } from "react-icons/io5";
 
 const Footer = () => {
   return (
-    <div className="bg-[#c4bd99] text-white grid grid-cols-1 gap-5 md:grid-cols-3 p-4 pb-6 px-5 md:px-12 lg:px-14 xl:px-20">
+    <div className="bg-[#d3d3d3] text-white grid grid-cols-1 gap-5 md:grid-cols-3 p-4 pb-6 px-5 md:px-12 lg:px-14 xl:px-20">
       <div className="space-y-4">
         <h1 className="text-lg text-[#161352]">Contact us</h1>
         <hr className="w-[50%]"/>
