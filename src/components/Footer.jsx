@@ -27,10 +27,10 @@ const Footer = () => {
       <div className="space-y-4">
         <h1 className="text-lg  text-[#161352]">Ouick link</h1>
         <hr className="w-[50%]"/>
-        <h3 className="font-thin text-sm  text-[#161352]">University Web Page</h3>
-        <h3 className="font-thin text-sm  text-[#161352]">Learning management system</h3>
-        <h3 className="font-thin text-sm  text-[#161352]">FAQs</h3>
-        <h3 className="font-thin text-sm  text-[#161352]">Contact us</h3>
+        <h3 className="font-bold text-sm  text-[#161352] ">University Web Page</h3>
+        <h3 className="font-bold text-sm  text-[#161352] ">Learning management system</h3>
+        <h3 className="font-bold text-sm  text-[#161352] ">FAQs</h3>
+        <h3 className="font-bold text-sm  text-[#161352] ">Contact us</h3>
       </div>
       <div>
         <img src="/images/main-logo.png" className="w-[40%] md:w-[75%] lg:w-[60%] xl:w-[50%]" alt="" />
